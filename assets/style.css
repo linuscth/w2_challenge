@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    background-color: rgb(106, 135, 196);
+    color: aliceblue;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+nav {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+li {
+    display: inline;
+    padding: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main {
+    margin: 10%;
+
+
+
+}
+
+
+
+.card {
+
+    display: block;
+
+    border: 3px solid rgb(33, 40, 106);
+    margin: 10px;
+}

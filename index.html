@@ -15,50 +15,92 @@
         <h1>Linus Cheung</h1>
         <nav>
             <ul class="navbar">
-                <li><a href="about-me">About me</a> </li>
-                <li><a href="work-experience">Work experience</a> </li>
-                <li><a href="Skills">skills</a> </li>
-                <li><a href="background">Background</a> </li>
-                <li><a href="contact-me">Contact me</a> </li>
+                <li><a href="#about">About</a> </li>
+                <li><a href="#work">Work</a> </li>
+                <li><a href="#contact">Contact-Me</a> </li>
+                <li><a href="#resume">Resume</a> </li>
+
             </ul>
         </nav>
     </header>
 
     <main>
 
-        <section class="card" id="about-me">
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui aperiam, rerum repellat aliquam quos eum
-                odio praesentium veniam culpa, nemo cumque dolorum ipsa vel corporis totam tempora fuga. Amet?</p>
-        </section>
 
-        <section class="card" id="work-experience">
-            <h2>Work Experience</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit optio quam nostrum, esse
-                incidunt illum aut voluptate dolore beatae rerum, dignissimos amet quod eveniet unde ut molestias hic
-                assumenda?</p>
-        </section>
+        <div class="cover-image">
+            <img src="https://www.shutterstock.com/image-vector/ui-image-placeholder-wireframes-apps-260nw-1037719204.jpg"
+                alt="placeholder image">
+        </div>
+        <div class="container">
+            <section class="card" id="about">
+                <aside>
+                    <h2>About</h2>
+                </aside><br>
+                <img src="https://images.thdstatic.com/productImages/27b13acf-3838-4a13-bbe4-e6ca72e45965/svn/black-unique-home-designs-security-doors-spd0640072e002-64_1000.jpg"
+                    alt="virtual door">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex qui aperiam, rerum repellat
+                    aliquam quos
+                    eum
+                    odio praesentium veniam culpa, nemo cumque dolorum ipsa vel corporis totam tempora fuga.
+                    Amet?</p>
+            </section>
 
-        <section class="card" id="Skills">
-            <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit optio quam nostrum, esse
-                incidunt illum aut voluptate dolore beatae rerum, dignissimos amet quod eveniet unde ut molestias hic
-                assumenda?</p>
-        </section>
+            <section class="card" id="work">
+                <aside>
+                    <h2>Work</h2>
+                </aside><br>
+                <img src="https://images.thdstatic.com/productImages/27b13acf-3838-4a13-bbe4-e6ca72e45965/svn/black-unique-home-designs-security-doors-spd0640072e002-64_1000.jpg"
+                    alt="virtual door">
+                <p>Please click the link below in red to check out my work and projects, I am sure they will fascinate
+                    you <a href="./assets/myProject.html" class="redLink">&#128513 My Projects &#128513</a></p>
 
-        <section class="card" id="background">
-            <h2>Education Background</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit optio quam nostrum, esse
-                incidunt illum aut voluptate dolore beatae rerum, dignissimos amet quod eveniet unde ut molestias hic
-                assumenda?</p>
-        </section>
+            </section>
+
+            <section class="card" id="contact">
+                <aside>
+                    <h2>Contact Me</h2>
+                </aside><br>
+                <img src="https://images.thdstatic.com/productImages/27b13acf-3838-4a13-bbe4-e6ca72e45965/svn/black-unique-home-designs-security-doors-spd0640072e002-64_1000.jpg"
+                    alt="virtual door">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit optio quam nostrum,
+                    esse
+                    incidunt illum aut voluptate dolore beatae rerum, dignissimos amet quod eveniet unde ut molestias
+                    hic
+                    assumenda?</p>
+            </section>
+
+            <section class="card" id="resume">
+                <aside>
+                    <h2>Resume</h2>
+                </aside><br>
+                <img src="https://images.thdstatic.com/productImages/27b13acf-3838-4a13-bbe4-e6ca72e45965/svn/black-unique-home-designs-security-doors-spd0640072e002-64_1000.jpg"
+                    alt="virtual door">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reprehenderit optio quam nostrum,
+                    esse
+                    incidunt illum aut voluptate dolore beatae rerum, dignissimos amet quod eveniet unde ut molestias
+                    hic
+                    assumenda?</p>
+            </section>
+        </div>
 
     </main>
 
 
     <footer>
-        <form action="" id="contact-me">
-            <h3>Contact Me</h3>
+        <form action="" method="get">
+
+            <div class="contactForm">
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="contactForm">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="contactForm">
+                <input type="submit" value="will contact you soon!">
+            </div>
+        </form>
 
         </form>
     </footer>

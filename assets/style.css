@@ -197,7 +197,8 @@ footer form {
         border: black solid;
     }
 
-    header {
+    header,
+    footer {
         width: 100%;
         background-image: none;
         background-color: cadetblue;

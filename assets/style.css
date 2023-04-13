@@ -50,8 +50,8 @@ body {
 
 .cover-image img {
     display: flex;
-    height: 400px;
-    width: 600px;
+    height: 20%px;
+    width: 30%;
     margin: auto;
     margin-bottom: 25px;
 
@@ -133,12 +133,17 @@ h4 a {
     color: black;
 }
 
+#work a {
+    display: none;
+}
 
 .card:active p {
     display: block;
 }
 
-
+#work:hover a {
+    display: block;
+}
 
 
 aside {
@@ -183,5 +188,19 @@ footer form {
     display: block;
     border: black dotted 3px;
     margin: 10px;
+
+}
+
+@media screen and (max-width:992px) {
+    .card {
+        width: 50%;
+        border: black solid;
+    }
+
+    header {
+        width: 100%;
+        background-image: none;
+        background-color: cadetblue;
+    }
 
 }

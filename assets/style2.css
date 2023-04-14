@@ -27,33 +27,6 @@ header h1::first-letter {
 }
 
 
-.navbar::first-letter {
-
-    font-family: cursive;
-    color: yellow;
-    font-size: 21px;
-}
-
-.navbar:hover {
-    color: #848484;
-    text-decoration: underline rgb(239, 35, 8) 2px;
-    opacity: 0.4;
-    cursor: grabbing;
-
-}
-
-.rightHeader {
-    display: block;
-    margin-right: 50px;
-
-}
-
-.navbars {
-    display: flex;
-    justify-content: space-between;
-
-
-}
 
 body {
     background-color: rgb(215, 215, 213)
@@ -73,6 +46,14 @@ nav a {
     font-weight: bold;
 
 }
+
+h2 a:active {
+    color: red;
+
+
+}
+
+
 
 .boxes {
     display: flex;

@@ -16,3 +16,8 @@
 ## Screenshot
 ![screenshot](./assets/screenshot1.png)
 ![screenshot](./assets/screenshot2.png)
+
+## links 
+* Github Repository: https://github.com/linuscth/w2_challenge_linusCheung_porfolio
+* url:  https://linuscth.github.io/w2_challenge_linusCheung_porfolio/
+
